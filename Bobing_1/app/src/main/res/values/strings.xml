@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bobing_1</string>
+    <string name="online_game">登录游戏</string>
+    <string name="setting">游戏设置</string>
+    <string name="gamerule">规则说明</string>
+    <string name="quit_game">退出游戏</string>
+    <string name="solitary_play">单机游戏</string>
+</resources>

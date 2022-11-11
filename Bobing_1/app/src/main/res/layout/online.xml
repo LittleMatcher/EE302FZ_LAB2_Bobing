@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="18dp"
+    >
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="7%"
+        app:layout_heightPercent="5%"
+        android:backgroundTint="@color/white"
+        android:drawableBottom="@drawable/button_back"
+        >
+    </Button>
+    <Button
+        android:id="@+id/button_createroom"
+        android:layout_marginTop="-220dp"
+        android:text="创建房间"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="12%"
+        android:background="@drawable/shape"
+        />
+    <Button
+        android:id="@+id/button_join"
+        android:layout_marginTop="-120dp"
+        android:text="加入房间"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        app:layout_widthPercent="50%"
+        app:layout_heightPercent="12%"
+        android:background="@drawable/shape"
+        />
+
+</androidx.percentlayout.widget.PercentFrameLayout>
